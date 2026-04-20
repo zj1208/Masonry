@@ -1,6 +1,6 @@
 PODS:
   - Expecta (1.0.5)
-  - Masonry (1.1.2)
+  - Masonry (1.1.1)
 
 DEPENDENCIES:
   - Expecta
@@ -16,7 +16,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
-  Masonry: d086bf5582a7acb9e496c9f2d3176ac7911c426d
+  Masonry: 42b4aa0fad5caef690aed18bf2b151f98143ea4a
 
 PODFILE CHECKSUM: 61f68f8f001fc0f6e1c9129a5e9801c1baae5c23
 

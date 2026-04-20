@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'Masonry'
-  s.version  = '1.1.2'
+  s.version  = '1.1.1'
   s.license  = 'MIT'
   s.summary  = '利用 Auto Layout 和 NSLayoutConstraints 的强大功能，采用简洁、可链式操作且富有表现力的语法进行操作。fork自原作者Jonas Budelmann。'
   s.homepage = 'https://github.com/zj1208/Masonry.git'
