@@ -1,6 +1,6 @@
 workspace 'Masonry'
 
-platform :ios, '12.0'
+platform :ios, '15.0'
 
 project 'Examples/Masonry iOS Examples'
 target 'Masonry iOS Examples' do
