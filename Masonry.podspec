@@ -1,11 +1,10 @@
 Pod::Spec.new do |s|
   s.name     = 'Masonry'
-  s.version  = '1.1.1'
+  s.version  = '1.1.2'
   s.license  = 'MIT'
   s.summary  = '利用 Auto Layout 和 NSLayoutConstraints 的强大功能，采用简洁、可链式操作且富有表现力的语法进行操作。fork自原作者Jonas Budelmann。'
   s.homepage = 'https://github.com/zj1208/Masonry.git'
   s.author   = { 'Jonas Budelmann' => 'jonas.budelmann@gmail.com' }
-  s.social_media_url = "http://twitter.com/cloudkite"
 
   s.source   = { :git => 'https://github.com/zj1208/Masonry.git', :tag => "v#{s.version}" }
 
