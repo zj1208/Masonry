@@ -1,19 +1,18 @@
 Pod::Spec.new do |s|
   s.name     = 'Masonry'
-  s.version  = '1.1.0'
+  s.version  = '1.1.1'
   s.license  = 'MIT'
-  s.summary  = 'Harness the power of Auto Layout NSLayoutConstraints with a simplified, chainable and expressive syntax.'
-  s.homepage = 'https://github.com/cloudkite/Masonry'
+  s.summary  = '利用 Auto Layout 和 NSLayoutConstraints 的强大功能，采用简洁、可链式操作且富有表现力的语法进行操作。fork自原作者Jonas Budelmann。'
+  s.homepage = 'https://github.com/zj1208/Masonry.git'
   s.author   = { 'Jonas Budelmann' => 'jonas.budelmann@gmail.com' }
   s.social_media_url = "http://twitter.com/cloudkite"
 
-  s.source   = { :git => 'https://github.com/cloudkite/Masonry.git', :tag => "v#{s.version}" }
+  s.source   = { :git => 'https://github.com/zj1208/Masonry.git', :tag => "v#{s.version}" }
 
   s.description = %{
-    Masonry is a light-weight layout framework which wraps AutoLayout with a nicer syntax.
-	Masonry has its own layout DSL which provides a chainable way of describing your
-	NSLayoutConstraints which results in layout code which is more concise and readable.
-    Masonry supports iOS and Mac OSX.
+    Masonry 是一个轻量级的布局框架，它用更优美的语法封装了 AutoLayout。
+    Masonry 有自己的布局领域特定语言（DSL），提供了一种链式的方式来描述您的 NSLayoutConstraints，从而生成更简洁、更易读的布局代码。
+    Masonry 支持 iOS 和 Mac OSX。附加：原作者已不维护更新，在 Xcode15 之后，构建Masonry依赖时，会出现链接器无法找到'libarclite'的问题，需要把最低部署版本目标改为 iOS12 来解决。
   }
 
   pch_AF = <<-EOS
@@ -31,8 +30,8 @@ Pod::Spec.new do |s|
   s.tvos.frameworks = 'Foundation', 'UIKit'
   s.osx.frameworks = 'Foundation', 'AppKit'
 
-  s.ios.deployment_target = '6.0' # minimum SDK with autolayout
-  s.osx.deployment_target = '10.7' # minimum SDK with autolayout
-  s.tvos.deployment_target = '9.0' # minimum SDK with autolayout
+  s.ios.deployment_target = '12.0' # minimum SDK with autolayout
+  s.osx.deployment_target = '10.14' # minimum SDK with autolayout
+  s.tvos.deployment_target = '12.0' # minimum SDK with autolayout
   s.requires_arc = true
 end

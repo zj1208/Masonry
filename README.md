@@ -413,3 +413,20 @@ Copy the included code snippets to ``~/Library/Developer/Xcode/UserData/CodeSnip
 * Mac example project
 * More tests and examples
 
+
+## 命令
+可选命令：
+1. --allow-warnings :允许警告；如果不允许警告，则在遇到警告时不会验证通过
+2. --verbose ：获取更多信息
+3.--no-clean：选项，检查任何问题
+
+$ pod lib lint --allow-warnings --no-clean --verbose 
+
+$ pod spec lint --allow-warnings --no-clean --verbose 
+
+$ pod repo push gitee-zj1208-specs Masonry.podspec --allow-warnings --verbose 
+
+## 更新记录
+
+2026.04.20
+1.fork 原作者代码，修改最低部署目标版本，解决 Xcode15 之后因报错“链接器无法找到'libarclite'”而无法编译的问题。

@@ -33,7 +33,9 @@
 		DDDF60CC181915E300BF7B8B /* MASExampleLabelView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDDF60CB181915E300BF7B8B /* MASExampleLabelView.m */; };
 		DDF3875C179D648D00178773 /* MASExampleAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF3875B179D648D00178773 /* MASExampleAnimatedView.m */; };
 		DFBACE591F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBACE581F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m */; };
-		DFBACE5D1F7B86860047F15A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFBACE5C1F7B86860047F15A /* Launch Screen.storyboard */; };
+		F476F5D92F95FCE200A7FE8F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F476F5D82F95FCE200A7FE8F /* SceneDelegate.m */; };
+		F476F5DF2F95FDB900A7FE8F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5DB2F95FDB900A7FE8F /* Launch Screen.storyboard */; };
+		F476F5E02F95FDB900A7FE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5DD2F95FDB900A7FE8F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -87,7 +89,10 @@
 		DDF3875B179D648D00178773 /* MASExampleAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASExampleAnimatedView.m; sourceTree = "<group>"; };
 		DFBACE571F7B76E30047F15A /* MASExampleSafeAreaLayoutGuideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASExampleSafeAreaLayoutGuideViewController.h; sourceTree = "<group>"; };
 		DFBACE581F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASExampleSafeAreaLayoutGuideViewController.m; sourceTree = "<group>"; };
-		DFBACE5C1F7B86860047F15A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F476F5D72F95FCE200A7FE8F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		F476F5D82F95FCE200A7FE8F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F476F5DA2F95FDB900A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F476F5DC2F95FDB900A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,13 +142,16 @@
 		DD52F230179CAD57005CD195 /* Masonry iOS Examples */ = {
 			isa = PBXGroup;
 			children = (
+				F476F5D72F95FCE200A7FE8F /* SceneDelegate.h */,
+				F476F5D82F95FCE200A7FE8F /* SceneDelegate.m */,
 				DD52F239179CAD57005CD195 /* MASAppDelegate.h */,
 				DD52F23A179CAD57005CD195 /* MASAppDelegate.m */,
 				DD52F257179CADCB005CD195 /* Controllers */,
 				DD52F256179CADC4005CD195 /* Views */,
 				3C02224819D0C4EC00507321 /* Images.xcassets */,
 				DD52F231179CAD57005CD195 /* Supporting Files */,
-				DFBACE5C1F7B86860047F15A /* Launch Screen.storyboard */,
+				F476F5DB2F95FDB900A7FE8F /* Launch Screen.storyboard */,
+				F476F5DD2F95FDB900A7FE8F /* Main.storyboard */,
 			);
 			path = "Masonry iOS Examples";
 			sourceTree = "<group>";
@@ -229,8 +237,6 @@
 				DD52F223179CAD57005CD195 /* Sources */,
 				DD52F224179CAD57005CD195 /* Frameworks */,
 				DD52F225179CAD57005CD195 /* Resources */,
-				5C6517785DFF4287BCDF458D /* [CP] Copy Pods Resources */,
-				9A6DE33A61510E8F9549C5EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -256,7 +262,9 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
+				Base,
 			);
 			mainGroup = DD52F21E179CAD57005CD195;
 			productRefGroup = DD52F228179CAD57005CD195 /* Products */;
@@ -273,7 +281,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DFBACE5D1F7B86860047F15A /* Launch Screen.storyboard in Resources */,
+				F476F5DF2F95FDB900A7FE8F /* Launch Screen.storyboard in Resources */,
+				F476F5E02F95FDB900A7FE8F /* Main.storyboard in Resources */,
 				3C02224919D0C4EC00507321 /* Images.xcassets in Resources */,
 				DD52F235179CAD57005CD195 /* InfoPlist.strings in Resources */,
 			);
@@ -282,21 +291,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5C6517785DFF4287BCDF458D /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Masonry iOS Examples/Pods-Masonry iOS Examples-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		621F6A1FCAEF44F880874959 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,21 +307,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9A6DE33A61510E8F9549C5EE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-Masonry iOS Examples/Pods-Masonry iOS Examples-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -347,6 +326,7 @@
 				DD653E4A1843E61500D1EC5A /* MASExampleLayoutGuideViewController.m in Sources */,
 				DDDF60CC181915E300BF7B8B /* MASExampleLabelView.m in Sources */,
 				27A27D461A6CF0C400D34F52 /* MASExampleAspectFitView.m in Sources */,
+				F476F5D92F95FCE200A7FE8F /* SceneDelegate.m in Sources */,
 				DD52F252179CADC0005CD195 /* MASExampleConstantsView.m in Sources */,
 				DD52F253179CADC0005CD195 /* MASExampleListViewController.m in Sources */,
 				DFBACE591F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m in Sources */,
@@ -369,6 +349,22 @@
 				DD52F234179CAD57005CD195 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F476F5DB2F95FDB900A7FE8F /* Launch Screen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F476F5DA2F95FDB900A7FE8F /* Base */,
+			);
+			name = "Launch Screen.storyboard";
+			sourceTree = "<group>";
+		};
+		F476F5DD2F95FDB900A7FE8F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F476F5DC2F95FDB900A7FE8F /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
