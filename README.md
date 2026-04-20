@@ -430,3 +430,4 @@ $ pod repo push gitee-zj1208-specs Masonry.podspec --allow-warnings --verbose
 
 v1.1.2  2026.04.20
 1.fork 原作者代码，修改最低部署目标版本，解决 Xcode15 之后因报错“链接器无法找到'libarclite'”而无法编译的问题。tag 使用 v1.1.2。
+警告报错：'ViewController+MASAdditions.o' has no symbols。可以不用管，如果要管，就把这个文件ViewController+MASAdditions删除，已经不用了的。
