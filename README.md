@@ -428,5 +428,5 @@ $ pod repo push gitee-zj1208-specs Masonry.podspec --allow-warnings --verbose
 
 ## 更新记录
 
-V1.1.2  2026.04.20
-1.fork 原作者代码，修改最低部署目标版本，解决 Xcode15 之后因报错“链接器无法找到'libarclite'”而无法编译的问题。
+v1.1.2  2026.04.20
+1.fork 原作者代码，修改最低部署目标版本，解决 Xcode15 之后因报错“链接器无法找到'libarclite'”而无法编译的问题。tag 使用 v1.1.2。
