@@ -461,11 +461,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 50B25D0621957AEB87C3FCC2 /* Pods-Masonry iOS Examples.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Masonry iOS Examples/Masonry iOS Examples-Prefix.pch";
 				INFOPLIST_FILE = "Masonry iOS Examples/Masonry iOS Examples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudling.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Masonry iOS Examples";
+				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -474,11 +477,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 321AA59CF7B045B6D503D2E5 /* Pods-Masonry iOS Examples.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Masonry iOS Examples/Masonry iOS Examples-Prefix.pch";
 				INFOPLIST_FILE = "Masonry iOS Examples/Masonry iOS Examples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.cloudling.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "Masonry iOS Examples";
+				USE_HEADERMAP = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
