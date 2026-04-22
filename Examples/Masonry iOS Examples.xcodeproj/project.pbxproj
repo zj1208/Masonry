@@ -34,7 +34,7 @@
 		DDF3875C179D648D00178773 /* MASExampleAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = DDF3875B179D648D00178773 /* MASExampleAnimatedView.m */; };
 		DFBACE591F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DFBACE581F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m */; };
 		F476F5D92F95FCE200A7FE8F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F476F5D82F95FCE200A7FE8F /* SceneDelegate.m */; };
-		F476F5DF2F95FDB900A7FE8F /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5DB2F95FDB900A7FE8F /* Launch Screen.storyboard */; };
+		F476F5DF2F95FDB900A7FE8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5DB2F95FDB900A7FE8F /* LaunchScreen.storyboard */; };
 		F476F5E02F95FDB900A7FE8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F476F5DD2F95FDB900A7FE8F /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -91,7 +91,7 @@
 		DFBACE581F7B76E40047F15A /* MASExampleSafeAreaLayoutGuideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASExampleSafeAreaLayoutGuideViewController.m; sourceTree = "<group>"; };
 		F476F5D72F95FCE200A7FE8F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		F476F5D82F95FCE200A7FE8F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		F476F5DA2F95FDB900A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
+		F476F5DA2F95FDB900A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F476F5DC2F95FDB900A7FE8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -150,7 +150,7 @@
 				DD52F256179CADC4005CD195 /* Views */,
 				3C02224819D0C4EC00507321 /* Images.xcassets */,
 				DD52F231179CAD57005CD195 /* Supporting Files */,
-				F476F5DB2F95FDB900A7FE8F /* Launch Screen.storyboard */,
+				F476F5DB2F95FDB900A7FE8F /* LaunchScreen.storyboard */,
 				F476F5DD2F95FDB900A7FE8F /* Main.storyboard */,
 			);
 			path = "Masonry iOS Examples";
@@ -281,7 +281,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F476F5DF2F95FDB900A7FE8F /* Launch Screen.storyboard in Resources */,
+				F476F5DF2F95FDB900A7FE8F /* LaunchScreen.storyboard in Resources */,
 				F476F5E02F95FDB900A7FE8F /* Main.storyboard in Resources */,
 				3C02224919D0C4EC00507321 /* Images.xcassets in Resources */,
 				DD52F235179CAD57005CD195 /* InfoPlist.strings in Resources */,
@@ -351,12 +351,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		F476F5DB2F95FDB900A7FE8F /* Launch Screen.storyboard */ = {
+		F476F5DB2F95FDB900A7FE8F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F476F5DA2F95FDB900A7FE8F /* Base */,
 			);
-			name = "Launch Screen.storyboard";
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		F476F5DD2F95FDB900A7FE8F /* Main.storyboard */ = {
